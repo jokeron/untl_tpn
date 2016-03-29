@@ -1,0 +1,228 @@
+@font-face {
+	font-family: DejaVuSans-ExtraLight;
+	src: url(common/fonts/DejaVu_Sans/DejaVuSans-ExtraLight.ttf);
+}
+
+@font-face {
+	font-family: DejaVuSans-Bold;
+	src: url(common/fonts/DejaVu_Sans/DejaVuSans-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'clear_sans_mediumregular';
+    src: url('common/fonts/clearsans/clearsans-medium.eot');
+    src: url('common/fonts/clearsans/clearsans-medium.eot?#iefix') format('embedded-opentype'),
+         url('common/fonts/clearsans/clearsans-medium.woff') format('woff'),
+         url('common/fonts/clearsans/clearsans-medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'clear_sans_lightregular';
+    src: url('common/fonts/clearsans/clearsans-light.eot');
+    src: url('common/fonts/clearsans/clearsans-light.eot?#iefix') format('embedded-opentype'),
+         url('common/fonts/clearsans/clearsans-light.woff') format('woff'),
+         url('common/fonts/clearsans/clearsans-light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+	margin: 0;
+	padding: 0;
+	min-height: 100vh;
+}
+
+body {
+	min-height: 100vh;
+	background-color: #FFFFFF;
+	margin: 0;
+	padding: 0;
+	font-family: clear_sans_lightregular, DejaVuSans-ExtraLight;
+	font-size: large;
+	font-weight: 200;
+	background-image: url(common/header_lab_2.png);
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.main {
+	min-height: calc(68vh - 40px);
+	width: 100%;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+div.maintext {
+	color: #ffffff;
+	min-height: inherit;
+	float: left;
+	width: 65%;
+	margin: 20px 0px 50px 50px;
+	padding: 20px;
+	box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 7px;
+	line-height: 1.5;
+}
+
+p.maintext {
+	text-align: justify;
+}
+
+p.maintext:first-letter {
+	font-size: 150%;
+}
+
+span.maintext {
+	font-family: clear_sans_mediumregular;
+	font-weight: 300;
+}
+
+header.header {
+	margin-bottom: 0px;
+	padding: 0px;
+	clear: right;
+	height: 25%;
+	padding-top: 20px;
+	/*border-top: 30px solid #2196F3;*/
+	/*background-image: url(common/header_lab.png);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: 100% 100%;
+	background-size: cover;*/
+}
+
+p.header {
+	color: #2196F3;
+	clear: none;
+	height: 150px;
+	margin: 0px;
+	padding-top: 60px;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	font-family: DejaVuSans-Bold;
+	font-size: 25pt;
+}
+
+img.header {
+	float: left;
+	height: 200px;
+	width: auto;
+	padding-right: 10px;
+	padding-left: 37px;
+}
+
+div.menu {	
+	font-family: DejaVuSans-Bold, Verdana, Arial;
+	font-weight: 200;
+	color: #FFFFFF;
+	height: 30px;
+	clear: both;
+	margin-top: 0px;
+	background-color: #2196F3;
+	text-align: center;
+	padding: 0px 0px 0px 40px;
+	border-top: 1px solid #2196F3;
+}
+
+p.menu {
+	float: left;
+	font-family: DejaVuSans-ExtraLight, Verdana, Arial;
+	text-align: left;
+	color: #ffffff;
+	font-weight: bold;
+	margin: 0px;
+	padding: 3px 10px 3px 10px;
+	background-color: transparent;
+}
+
+a.menu {
+	text-decoration: none;
+	color: white;
+}
+
+a.menu:hover {
+	text-decoration: none;
+	color: white;
+}
+
+div.sidebardiv {
+	color: #ffffff;
+	width: 23%;
+	float: right;
+	padding: 20px;
+	margin: 20px 50px 50px 20px;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 7px;
+
+}
+
+p.sidebar {
+	font-family: clear_sans_mediumregular;
+	font-weight: 900;
+
+}
+
+.empty {
+	clear: both;
+	height: 40px;
+}
+
+footer {
+	clear: both;
+	font-size: small;
+	color: gray;
+	bottom: 10px;
+	padding-left: 20px;
+	padding-top: 20px;
+	height: 40px;
+	margin-top: -40px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+/*стили для страницы расчета ОКР*/
+div.data {
+	float:left;
+}
+.buttonDiv {
+	float: left;
+	clear: left;
+}
+
+textarea.csr {
+	min-height: 200px;
+	width: 130px;
+}
+
+#info {
+	clear: both;
+	border-top: 3px solid #F44336;
+}
+
+button.csr {
+	margin: 5px;
+}
+
+canvas {
+	width: 500px;
+	height: 500px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+}
+
+/*#savedImageCopy {
+	float: right;
+}
+*/
+
